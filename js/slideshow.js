@@ -1,5 +1,4 @@
 var currentSlide = 0;
-slideshow();
 
 function slideshow() {
   var i;
@@ -8,7 +7,10 @@ function slideshow() {
     slides[i].style.display = "none"; 
   }
   currentSlide++;
-  if (currentSlide > slides.length) {currentSlide = 1} 
+  if (currentSlide > slides.length)
+    {currentSlide = 1};
   slides[currentSlide-1].style.display = "block"; 
   setTimeout(slideshow, 5000); 
 }
+
+slideshow();
