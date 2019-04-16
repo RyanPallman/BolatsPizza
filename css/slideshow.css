@@ -1,54 +1,78 @@
+#content {
+  display: block !important;
+}
+
 .slideshow-slide {
-	display: none;
-	text-align: center;
+  display: none;
+  text-align: center;
 }
 
 #dealoftheday {
-	background-image: url("../images/pizza.jpg");
-	padding: 10% 0;
-	color: #ffffff;
+  background-image: url("../images/pizza.jpg");
+  padding: 10% 0;
+  color: #ffffff;
 }
 
 .slideshow-slide a {
-	border: none;
-    display: inline-block;
-    padding: 16px 32px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
-	color: #6b0902;
-    background-color: #fade09;
-	font-size: 2em;
+  border: none;
+  display: inline-block;
+  padding: 16px 32px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  color: #000000;
+  background-color: #fade09;
+  font-size: 2em;
 }
 
 .slideshow-slide a:hover {
-	color: #e01a11;
-	background-color: #e89d03;
+  color: #000000;
+  background-color: #E3B202;
 }
 
 #ourmission {
-	background-image: url("../images/community.jpg");
-	background-position: bottom 25% left 50%;
-	padding: 10% 0;
-	color: white;
+  background-image: url("../images/community.jpg");
+  background-position: bottom 25% left 50%;
+  padding: 10% 0;
+  color: white;
 }
 
 #ourmission a {
-	color: #000000;
+  color: #000000;
 }
 
 #slideshow {
-	display: inline-flex;
-	width: 100%;
-	flex-flow: column;
-	height: 20%;
-	position: relative;
+  display: inline-flex;
+  width: 100%;
+  flex-flow: column;
+  height: 20%;
+  position: relative;
 }
 
 .slideshow-caption {
-	text-align: center;
-	width: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+/* Tiles below slideshow */
+#tiles {
+  text-align: justify;
+  margin: 0 auto;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+#tiles img {
+  display: inline-block;
+  width: 30%;
+}
+
+#tiles span {
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  width: 100%;
 }

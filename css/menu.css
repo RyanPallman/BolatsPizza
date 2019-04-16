@@ -1,34 +1,33 @@
 .menu-item {
-    /*background-color: green;*/
-    outline: 1px solid black;
-    display: inline-flex;
-	flex-flow: wrap;
-	padding: 1em;
+  /*background-color: green;*/
+  outline: 1px solid black;
+  display: inline-flex;
+  flex-flow: wrap;
+  padding: 1em;
 }
 
 .menu-item img {
-    align-self: flex-start;
-    float: left;
-    padding-right: 1em;
+  align-self: flex-start;
+  float: left;
+  padding-right: 1em;
 }
 
 .menu-item h1 {
-    font-family: 'Meddon', cursive;
-    margin: 0;
-    padding-bottom: 1%;
+  font-family: 'Meddon', cursive;
+  margin: 0;
+  padding-bottom: 1%;
 }
 
 .menu-item-content p {
-    margin: 0 auto;
-    text-align: justify;
+  margin: 0 auto;
+  text-align: justify;
 }
 
 .menu-row {
-    width: 100%;
-    flex-direction: column;
+  width: 100%;
+  flex-direction: column;
 }
 
 #content {
-    display: flex;
+  display: flex;
 }
-
