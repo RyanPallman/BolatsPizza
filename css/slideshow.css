@@ -50,6 +50,7 @@
   flex-flow: column;
   height: 20%;
   position: relative;
+  font-family: 'Bree Serif', serif;
 }
 
 .slideshow-caption {

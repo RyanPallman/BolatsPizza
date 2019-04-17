@@ -13,14 +13,22 @@
 }
 
 .menu-item h1 {
-  font-family: 'Meddon', cursive;
+  /*font-family: 'Meddon', cursive;*/
+  font-family: 'Bree Serif', serif;
   margin: 0;
   padding-bottom: 1%;
+  font-size: 1.5em;
+  
 }
 
 .menu-item-content p {
   margin: 0 auto;
   text-align: justify;
+  
+
+    font-family: 'Roboto', sans-serif;
+
+
 }
 
 .menu-row {
