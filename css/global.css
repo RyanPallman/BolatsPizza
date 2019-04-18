@@ -30,12 +30,13 @@ body {
 footer {
   left: 0;
   bottom: 0;
-  background-color: red;
+  background-color: #6b0902;
   color: white;
   text-align: center;
   display: grid;
   margin: 0 auto;
   width: 80%;
+  font-family: 'Roboto', sans-serif;
   /*margin: 0 -9999rem;
   padding: 0.25rem 9999rem;*/
 }
