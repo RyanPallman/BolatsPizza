@@ -6,6 +6,11 @@
 
 #content {
 	display: grid;
+    
+}
+
+#content img{
+    height: 200px;
 }
 
 @media (min-width: 1000px) {
@@ -59,6 +64,7 @@ body {
   background: #f7f7f7;
   border-top: 1px solid rgba(191, 191, 191, 0.4);
   border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+  
 }
 #timeline h1 {
   text-align: center;
