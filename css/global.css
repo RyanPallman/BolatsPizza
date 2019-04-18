@@ -33,6 +33,9 @@ footer {
   background-color: red;
   color: white;
   text-align: center;
+  display: grid;
+  margin: 0 auto;
+  width: 80%;
   /*margin: 0 -9999rem;
   padding: 0.25rem 9999rem;*/
 }
