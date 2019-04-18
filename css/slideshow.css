@@ -8,7 +8,7 @@
 }
 
 #dealoftheday {
-  background-image: url("../images/pizza.jpg");
+  background-image: url("../images/home/pizza.jpg");
   padding: 10% 0;
   color: #ffffff;
 }
@@ -34,7 +34,7 @@
 }
 
 #ourmission {
-  background-image: url("../images/community.jpg");
+  background-image: url("../images/home/community.jpg");
   background-position: bottom 25% left 50%;
   padding: 10% 0;
   color: white;
