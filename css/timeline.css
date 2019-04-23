@@ -6,7 +6,7 @@
 
 #content {
 	display: grid;
-    
+	padding-bottom: 0%;
 }
 
 #content img{
@@ -19,8 +19,8 @@
     content: "";
     width: 0;
     height: 0;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
+    /*border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;*/
   }
   #timeline .demo-card:nth-child(odd) .head::before, #timeline .demo-card:nth-child(even) .head::before {
     position: absolute;
