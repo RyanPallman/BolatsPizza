@@ -6,7 +6,10 @@
 
 #content {
 	display: grid;
-	padding-bottom: 0%;
+}
+
+#navigation {
+		padding-bottom: 0%;
 }
 
 #content img{
