@@ -1,6 +1,4 @@
 .menu-item {
-  /*background-color: green;
-  outline: 1px solid black;*/
   display: inline-flex;
   flex-flow: wrap;
   padding: 1em;
@@ -9,12 +7,9 @@
 .menu-item img {
   align-self: flex-start;
   width: 100%;
-  /*float: left;
-  padding-right: 1em;*/
 }
 
 .menu-item h1 {
-  /*font-family: 'Meddon', cursive;*/
   font-family: 'Bree Serif', serif;
   margin: 0;
   padding-bottom: 1%;
@@ -27,11 +22,9 @@
   font-family: 'Roboto', sans-serif;
 }
 
-
 .menu-item-content ul {
   display: inline;
-
-list-style-position: inside;
+  list-style-position: inside;
 }
 
 .menu-item-content li {
