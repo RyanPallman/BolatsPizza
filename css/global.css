@@ -22,6 +22,10 @@ body {
   margin-right: auto;
 }
 
+#logo {
+  display: contents;
+}
+
 #navigation #navbar {
   padding: 0;
   height: auto;

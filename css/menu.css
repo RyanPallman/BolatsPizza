@@ -19,17 +19,19 @@
   margin: 0;
   padding-bottom: 1%;
   font-size: 3em;
-  
 }
 
 .menu-item-content p {
   margin: 0 auto;
   text-align: justify;
- 
-
   font-family: 'Roboto', sans-serif;
+}
 
-
+.menu-item-content li {
+  margin: 0 auto;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  line-height: 2em;
 }
 
 .menu-row {

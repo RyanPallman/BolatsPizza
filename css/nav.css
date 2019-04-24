@@ -18,11 +18,9 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  
-
-    font-family: 'Roboto', sans-serif;
-	font-weight: bold;
-	text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .navbar li a:hover {
