@@ -27,6 +27,13 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
+.menu-item-content ul {
+  display: inline;
+
+list-style-position: inside;
+}
+
 .menu-item-content li {
   margin: 0 auto;
   text-align: justify;
